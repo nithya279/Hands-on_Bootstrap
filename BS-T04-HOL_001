@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <!-- Bootstrap -->
+    <!--<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">-->
+    <!--jQuery library-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!--Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .material-icons {
+            vertical-align: middle;
+        }
+
+        #heart:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+        <div style="background-color:black;">
+            <nav class=" navbar-expand-md navbar-dark bg-dark">
+                <div class="navbar-header">
+                    <a class="navbar-brand" style="color: white; font-size: 25px;">hTrack</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> <span class="glyphicon glyphicon-home"></span>  Home </a></li>
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> Products </a></li>
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> Goals </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <br>
+
+        <h1>Products</h1>
+
+        <div class="card-columns card-col-4">
+            <div class="card ">
+
+                <img src="https://themify.me/demo/themes/ultra-lifestyle/files/2019/02/cocooil-body-oil.jpg" class="card-img-top" alt="...." />
+                <div class="card-body">
+                    <h4 class="card-title">
+                        Coco Oil (250g) <span class="label label-success">4.4<span class="glyphicon glyphicon-star"></span></span><h4>
+                            <h4>Rs.200.00 <a style="font-size: small" ;><span style="text-decoration: line-through;"> Rs.250.00 </span>  20% <i class="material-icons" style=" color: maroon;">new_releases</i></a></h4>
+                            <p class="card-text" style="font-size:12px; line-height:20px;">Escape is an innovative, skin-loving formulation, formulated with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in the Pacific islands and supporting local communities.</p>
+                            <a href="#" style="font-size:15px;" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</a>
+                            <a href="#" style="color:black; padding-left:120px"><i class="material-icons" id="heart">favorite_outline</i></a>
+                </div>
+            </div>
+
+            <div class="card ">
+
+                <img src="http://shopping.wavatmospheric.com/wp-content/uploads/2020/05/bamboo-fibers-shampoo.jpg" class="card-img-top" alt="...." />
+                <div class="card-body">
+                    <h4 class="card-title">
+                        Maui Moisture (Bamboo Fibre Shampoo 305ml) <span class="label label-warning">3.1<span class="glyphicon glyphicon-star"></span></span><h4>
+                            <h4>Rs.455.00 </h4>
+                            <p class="card-text" style="font-size:12px; line-height:20px;">Lightweight spray conditioner suitable as a leave-in for wavy hair types. With Acquarine Complex, the formula detangles, hydrates and gives lasting definition, creating a soft, beach-wave look. Strengthens the hair" and provides heat protection up to 80'C".</p>
+                            <a href="#" style="font-size:15px;" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</a>
+                            <a href="#" style="color:black; padding-left:120px"><i class="material-icons" id="heart">favorite_outline</i></a>
+                </div>
+            </div>
+
+            <div class="card ">
+
+                <img src="https://images.squarespace-cdn.com/content/v1/54e097c0e4b00d4519addbd0/1522326017034-0FVP4FC9FS5N6T289U5C/ke17ZwdGBToddI8pDm48kKIT-n7IO0FDMlLIZsDl3o17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0q7uY_gEAXjzYg1fYWS2heRYFAv1xDZy02-djjYs-WLLSPdSYpYXmEg1O8FAUGo-FQ/mad+about+waves.jpg" class="card-img-top" alt="....">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        Mad About Waves (300ml) <span class="label label-warning">3.5<span class="glyphicon glyphicon-star"></span></span><h4>
+                            <h4>Rs.150.00 <a style="font-size: small" ;><span style="text-decoration: line-through;"> Rs.200.00 </span>  25% <i class="material-icons" style=" color: maroon;">new_releases</i></a></h4>
+                            <p class="card-text" style="font-size:12px; line-height:20px;">Mad about Waves is the holistic care and styling regime dedicated to beautifying every wave type. The range is designed to tame, respect and protect the hair – embracing each unique pattern, for breezy waves that last.</p>
+                            <a href="#" style="font-size:15px;" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</a>
+                            <a href="#" style="color:black; padding-left:120px"><i class="material-icons" id="heart">favorite_outline</i></a>
+                </div>
+            </div>
+
+            <div class="card ">
+
+                <img src="https://images.unsplash.com/photo-1559056199-5a47f60c5053?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="card-img-top" alt="...." />
+                <div class="card-body">
+                    <h4 class="card-title">
+                        Battlecreek Coffee (200g) <span class="label label-danger">2.5<span class="glyphicon glyphicon-star"></span></span><h4>
+                            <h4>Rs.200.00 <a style="font-size: small" ;><span style="text-decoration: line-through;"> Rs.250.00 </span>  20% <i class="material-icons" style=" color: maroon;">new_releases</i></a></h4>
+                            <p class="card-text" style="font-size:12px; line-height:20px;">This blend made from 100% specially selected beans creates a intensly aromatic flavour that makes it the ultimate coffee to look forward to at anytime of day.</p>
+                            <a href="#" style="font-size:15px;" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</a>
+                            <a href="#" style="color:black; padding-left:120px"><i class="material-icons" id="heart">favorite_outline</i></a>
+                </div>
+            </div>
+
+
+
+            <div class="card ">
+                <img src="https://i.pinimg.com/originals/2a/19/03/2a1903818599d69cd923382f6427e644.jpg" class="card-img-top" alt="....">
+                <div class="card-body ">
+                    <h4 class="card-title">
+                        Lapis Facial Oil (100ml) <span class="label label-success">4.8<span class="glyphicon glyphicon-star"></span></span><h4>
+                            <h4>Rs.750.00 <a style="font-size: small" ;><span style="text-decoration: line-through;"> Rs.1000.00 </span>  25% <i class="material-icons" style=" color: maroon;">new_releases</i></a></h4>
+                            <p class="card-text" style="font-size:12px; line-height:20px;">Lapis Facial Oil holds a component called Azulene which aids in soothing dry irritated skin, reducing the appearence of redness and balancing skin. Formulated for combination, oily, and blemish-prone skin types or any skin in need of balancing hydrogen.</p>
+                            <a href="#" style="font-size:15px;" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</a>
+                            <a href="#" style="color:black; padding-left:120px"><i class="material-icons" id="heart">favorite_outline</i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
